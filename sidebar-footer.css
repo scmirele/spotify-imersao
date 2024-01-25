@@ -2,10 +2,11 @@
 
 body { 
   background-color: black;
+  font-family: var(--font-dms-sans);
 }
 
 .sidebar {
-  position: fixed; /* vai ser sempre fixo */
+  /*position: fixed;*/  /* vai ser sempre fixo */
   top: 0; /* ficar sempre no topo */
   left: 0; 
   bottom: 0;
@@ -44,7 +45,6 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .sidebar-biblioteca {
@@ -114,7 +114,6 @@ body {
 .section-playlist .section-playlist-content {
   display: flex;
   flex-direction: column;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .section-playlist-content .text {
@@ -154,7 +153,6 @@ body {
   font-weight: 500;
   font-size: 10px;
   text-decoration: none;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .sidebar .cookies a:hover {
@@ -172,4 +170,43 @@ body {
   padding: 10px;
   margin: 8px;
   border-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 24px 7px 15px;
+  background: linear-gradient(to left, #509bf5, #af2896);
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-direction: column;  
+  color: #fff;
+  gap: 6px;
+  padding: 16px;
+}
+
+.footer-content .footer-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer-content .footer-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-btn {
+  align-items: center;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 9999px;
+  padding: 8px 32px;
+  width: 190px;
+  height: 100%;
+
 }
