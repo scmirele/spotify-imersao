@@ -107,5 +107,14 @@
     cursor: pointer;
 }
 
+.content-navigation {
+    background: #242424;
+}
+
+.title-navigation {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
 /* criar variaveis css */
 /* criar cards main*/
