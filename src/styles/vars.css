@@ -2,4 +2,8 @@
   /*FONT*/
   --font-dms-sans: "DM Sans", sans-serif;
   --color-white: #fff;
+
+  /* COLORS */
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0,0,07);
 }
