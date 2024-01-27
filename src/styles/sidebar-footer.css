@@ -6,7 +6,7 @@ body {
 }
 
 .sidebar {
-  /*position: fixed;*/  /* vai ser sempre fixo */
+  position: fixed;  /* vai ser sempre fixo */
   top: 0; /* ficar sempre no topo */
   left: 0; 
   bottom: 0;
@@ -175,6 +175,10 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding: 11px 24px 7px 15px;
   background: linear-gradient(to left, #509bf5, #af2896);
 }
@@ -198,15 +202,16 @@ body {
 }
 
 .footer-btn {
-  align-items: center;
   border: 0;
   font-weight: 700;
   font-size: 16px;
   background-color: #fff;
   color: #000;
   border-radius: 9999px;
-  padding: 8px 32px;
-  width: 190px;
-  height: 100%;
+  padding: 16px 32px;
+  margin-right: 30px;
+  width: max-content;
 
+  /* height: 100%; */
+  
 }
